@@ -1,0 +1,22 @@
+<mxfile host="65bd71144e">
+    <diagram id="kkAPzoXv8pohG99-Kkby" name="Page-1">
+        <mxGraphModel dx="784" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3" value="Algoritma menghitung&lt;br&gt;luas lingkaran" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="230" y="130" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="1.Mulai&lt;br&gt;2.Tentukan panjang jari-&lt;br&gt;jari lingkaran yang di hitung.&lt;br&gt;3.Tentukan nilai Pi (3.141)&lt;br&gt;4.Kalikan Pi dengan panjang&lt;br&gt;jari-jari lingkaran&lt;br&gt;5.Hasil perkalian dikalikan&lt;br&gt;dengan panjang jari-jari&lt;br&gt;lingkaran&lt;br&gt;6.selesai" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="220" y="180" width="180" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Algoritma menghitung&lt;br&gt;keliling lingkaran" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="455" y="130" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="1.Mulai&lt;br&gt;2.Tentukan panjang jari-&lt;br&gt;jari lingkaran yang di hitung.&lt;br&gt;3.Tentukan nilai Pi (3.141)&lt;br&gt;4.Ambil nilai Pi lalu dikali 2&lt;br&gt;5.Hasil perkalian dikalikan&lt;br&gt;dengan panjang jari-jari&lt;br&gt;lingkaran&lt;br&gt;6.selesai" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="180" width="170" height="140" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

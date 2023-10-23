@@ -1,0 +1,16 @@
+<mxfile host="65bd71144e">
+    <diagram id="nNrX7xK580K17YgFHmt-" name="Page-1">
+        <mxGraphModel dx="784" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Algoritma memindahkan &lt;br&gt;air didalam gelas" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="265" y="80" width="150" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="1.Mulai&lt;br&gt;2.Sediakan gelas A berisi teh&lt;br&gt;3.Sediakan gelas B berisi kopi&lt;br&gt;4.Sediakan gelas kosong C&lt;br&gt;5.Tuang teh di gelas A ke gelas C&lt;br&gt;6.Tuang kopi di gelas B ke gelas A&lt;br&gt;7.Tuang teh di gelas C ke gelas B&lt;br&gt;6.Selesai." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="235" y="125" width="210" height="130" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
