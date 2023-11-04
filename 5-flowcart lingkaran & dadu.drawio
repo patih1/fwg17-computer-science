@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="EYSat-z2N-eyqF5U7tOu" name="Luas dan Keliling Lingkaran">
-        <mxGraphModel dx="784" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="640" dy="474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -30,7 +30,7 @@
                 <mxCell id="54" value="" style="edgeStyle=none;html=1;" parent="1" source="11" target="53" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="11" value="r = num" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="11" value="r === num" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="520" y="220" width="80" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="3y9N2vOkkK7y7WOd7iPy-93" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="13" target="3" edge="1">
@@ -49,7 +49,7 @@
                 <mxCell id="60" value="false" style="edgeStyle=none;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.867;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="53" target="59" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="53" value="r =% 7" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="53" value="r % 7 = 0" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="650" y="220" width="80" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="64" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="55" target="61" edge="1">
@@ -116,7 +116,7 @@
                 <mxCell id="Yg-fXGmywBbAjabtKlyo-99" value="" style="edgeStyle=none;html=1;" parent="1" source="Yg-fXGmywBbAjabtKlyo-100" target="Yg-fXGmywBbAjabtKlyo-105" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="Yg-fXGmywBbAjabtKlyo-100" value="r = num" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="Yg-fXGmywBbAjabtKlyo-100" value="r === num" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="525" y="690" width="80" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="Yg-fXGmywBbAjabtKlyo-101" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Yg-fXGmywBbAjabtKlyo-102" target="Yg-fXGmywBbAjabtKlyo-95" edge="1">
@@ -135,7 +135,7 @@
                 <mxCell id="Yg-fXGmywBbAjabtKlyo-104" value="false" style="edgeStyle=none;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.867;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Yg-fXGmywBbAjabtKlyo-105" target="Yg-fXGmywBbAjabtKlyo-109" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="Yg-fXGmywBbAjabtKlyo-105" value="r =% 7" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="Yg-fXGmywBbAjabtKlyo-105" value="r % 7 = 0" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="655" y="690" width="80" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="Yg-fXGmywBbAjabtKlyo-106" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="Yg-fXGmywBbAjabtKlyo-107" target="Yg-fXGmywBbAjabtKlyo-111" edge="1">
@@ -174,7 +174,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="mYNq08L5i1HmZil4bkkc" name="Menghitung Luas Dadu">
-        <mxGraphModel dx="784" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="576" dy="427" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -202,7 +202,7 @@
                 <mxCell id="qlpWUZ75xZie_0icfUTR-10" value="" style="edgeStyle=none;html=1;" parent="1" source="qlpWUZ75xZie_0icfUTR-3" target="qlpWUZ75xZie_0icfUTR-9" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="qlpWUZ75xZie_0icfUTR-3" value="s = num" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="qlpWUZ75xZie_0icfUTR-3" value="s === num" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="530" y="300" width="80" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="qlpWUZ75xZie_0icfUTR-18" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="qlpWUZ75xZie_0icfUTR-5" target="qlpWUZ75xZie_0icfUTR-1" edge="1">

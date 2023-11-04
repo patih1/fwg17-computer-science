@@ -1,155 +1,286 @@
 <mxfile host="65bd71144e">
     <diagram id="YgmO2a_rBFL3r1cdiXxC" name="Algoritma Deteksi Palindrom">
-        <mxGraphModel dx="698" dy="469" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="746" dy="427" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="4" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="2" target="3">
+                <mxCell id="4" value="" style="edgeStyle=none;html=1;" parent="1" source="2" target="3" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="2" value="START" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="2" value="START" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="100" y="280" width="120" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="3" target="5">
+                <mxCell id="6" value="" style="edgeStyle=none;html=1;" parent="1" source="3" target="5" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="reverse" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+                <mxCell id="3" value="hasil" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
                     <mxGeometry x="250" y="290" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="10" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="5" target="9">
+                <mxCell id="10" value="" style="edgeStyle=none;html=1;" parent="1" source="5" target="9" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" value="input x" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                <mxCell id="5" value="INPUT text" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
                     <mxGeometry x="390" y="290" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="12" value="true" style="edgeStyle=none;html=1;" edge="1" parent="1" source="9" target="11">
+                <mxCell id="12" value="YES" style="edgeStyle=none;html=1;" parent="1" source="9" target="11" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="20" value="false" style="edgeStyle=none;html=1;" edge="1" parent="1" source="9" target="19">
+                <mxCell id="20" value="NO" style="edgeStyle=none;html=1;" parent="1" source="9" target="19" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" value="x = string" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="9" value="text === string" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="530" y="280" width="80" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="23" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="11" target="22">
+                <mxCell id="XTj2NDS6fulHLt7Voj3D-32" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="11" target="22" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="11" value="reverse = x reverse string" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="11" value="x = text.length-1" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="660" y="290" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="21" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="19" target="5">
+                <mxCell id="33" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="19" target="28" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
-                            <mxPoint x="450" y="185"/>
+                            <mxPoint x="40" y="185"/>
+                            <mxPoint x="40" y="610"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="19" value="output &quot;please enter&lt;br&gt;a valid string&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                <mxCell id="19" value="output &quot;please enter&lt;br&gt;a valid word&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
                     <mxGeometry x="500" y="150" width="140" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="27" value="true" style="edgeStyle=none;html=1;" edge="1" parent="1" source="22" target="26">
+                <mxCell id="XTj2NDS6fulHLt7Voj3D-34" value="YES" style="edgeStyle=orthogonalEdgeStyle;html=1;" parent="1" source="22" target="XTj2NDS6fulHLt7Voj3D-33" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="31" value="false" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="22" target="30">
+                <mxCell id="XTj2NDS6fulHLt7Voj3D-41" value="NO" style="edgeStyle=orthogonalEdgeStyle;html=1;" parent="1" source="22" target="XTj2NDS6fulHLt7Voj3D-40" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="x &amp;gt;= 0" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="530" y="440" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="END" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="90" y="570" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="Flowchart Deteksi Palindrom" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="330" y="85" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="c0n9UcY7k5-1hkYKdtdm-32" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;DECLARATION&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;hasil&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;BEGIN&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;INPUT text;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;IF (text === string) {&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;LOOP(x=text.length-1;x &amp;gt;= 0; x--){&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;hasil = hasil + text[x]&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;{&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;IF (text == hasil){&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;RETURN OUTPUT text &quot;adalah palindrom&quot;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;} ELSE {&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;RETURN OUTPUT text &quot;bukan palindrom&quot;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;}&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;} ELSE {&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;RETURN OUTPUT &quot;please enter a valid word&quot;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;}&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="295" y="725" width="310" height="300" as="geometry"/>
+                </mxCell>
+                <mxCell id="c0n9UcY7k5-1hkYKdtdm-33" value="Pseudocode Deteksi Palindrom" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="355" y="690" width="190" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="XTj2NDS6fulHLt7Voj3D-36" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" parent="1" source="XTj2NDS6fulHLt7Voj3D-33" target="XTj2NDS6fulHLt7Voj3D-35" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="XTj2NDS6fulHLt7Voj3D-33" value="hasil = hasil + text[x]" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="670" y="460" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="XTj2NDS6fulHLt7Voj3D-37" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="XTj2NDS6fulHLt7Voj3D-35" target="22" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="XTj2NDS6fulHLt7Voj3D-35" value="x = x-1" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="670" y="560" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="XTj2NDS6fulHLt7Voj3D-43" value="YES" style="edgeStyle=orthogonalEdgeStyle;html=1;" parent="1" source="XTj2NDS6fulHLt7Voj3D-40" target="XTj2NDS6fulHLt7Voj3D-42" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="XTj2NDS6fulHLt7Voj3D-45" value="NO" style="edgeStyle=orthogonalEdgeStyle;html=1;" parent="1" source="XTj2NDS6fulHLt7Voj3D-40" target="XTj2NDS6fulHLt7Voj3D-44" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="XTj2NDS6fulHLt7Voj3D-40" value="text == hasil" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="380" y="440" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="XTj2NDS6fulHLt7Voj3D-47" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="XTj2NDS6fulHLt7Voj3D-42" target="28" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="XTj2NDS6fulHLt7Voj3D-42" value="OUTPUT text &quot; adalah palindrom&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+                    <mxGeometry x="310" y="580" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="XTj2NDS6fulHLt7Voj3D-46" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="XTj2NDS6fulHLt7Voj3D-44" target="28" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="719.9655172413793" y="510" as="targetPoint"/>
                         <Array as="points">
-                            <mxPoint x="720" y="500"/>
+                            <mxPoint x="150" y="490"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="22" value="reverse == x" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="670" y="380" width="100" height="100" as="geometry"/>
-                </mxCell>
-                <mxCell id="29" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="26" target="28">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="26" value="output x, &quot; adalah kata palindrom&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-                    <mxGeometry x="400" y="400" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="28" value="END" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="100" y="390" width="120" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="30" value="output x, &quot; bukan kata palindrom&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-                    <mxGeometry x="370" y="470" width="160" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="32" value="Flowchart Deteksi Palindrom" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="330" y="85" width="180" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="c0n9UcY7k5-1hkYKdtdm-32" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;DECLARATION&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;reverse, x: string;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;BEGIN&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;INPUT x;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;IF (x = string) {&lt;br&gt;reverse = x reverse string ;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;/span&gt;IF (reverse == x) {&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;PRINT x, &quot; adalah kata palindrom&quot;;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;/span&gt;}&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;}&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;ELSE {&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;PRINT x, &quot; bukan kata palindrom&quot;;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;}&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="330" y="630" width="260" height="290" as="geometry"/>
-                </mxCell>
-                <mxCell id="c0n9UcY7k5-1hkYKdtdm-33" value="Pseudocode Deteksi Palindrom" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="365" y="590" width="190" height="30" as="geometry"/>
+                <mxCell id="XTj2NDS6fulHLt7Voj3D-44" value="OUTPUT text &quot;bukan palindrom&quot;&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+                    <mxGeometry x="170" y="450" width="160" height="80" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
     <diagram id="vlOa9ugmLwBEuIMwog1I" name="Algoritma Reverse Word">
-        <mxGraphModel dx="578" dy="388" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1646" dy="1220" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="b7mAhQMWUmjaO1hik1i6-6" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="DUZDIzOL4cv7gRO656DR-1" target="b7mAhQMWUmjaO1hik1i6-5">
+                <mxCell id="b7mAhQMWUmjaO1hik1i6-6" value="" style="edgeStyle=none;html=1;" parent="1" source="DUZDIzOL4cv7gRO656DR-1" target="b7mAhQMWUmjaO1hik1i6-5" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="DUZDIzOL4cv7gRO656DR-1" value="START" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="DUZDIzOL4cv7gRO656DR-1" value="START" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="80" y="260" width="120" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="b7mAhQMWUmjaO1hik1i6-11" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="b7mAhQMWUmjaO1hik1i6-3" target="b7mAhQMWUmjaO1hik1i6-10">
+                <mxCell id="b7mAhQMWUmjaO1hik1i6-11" value="" style="edgeStyle=none;html=1;" parent="1" source="b7mAhQMWUmjaO1hik1i6-3" target="b7mAhQMWUmjaO1hik1i6-10" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="b7mAhQMWUmjaO1hik1i6-3" value="input xArray(saya, belajar, javascript)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                <mxCell id="b7mAhQMWUmjaO1hik1i6-3" value="INPUT kalimat" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
                     <mxGeometry x="360" y="270" width="140" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="b7mAhQMWUmjaO1hik1i6-7" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="b7mAhQMWUmjaO1hik1i6-5" target="b7mAhQMWUmjaO1hik1i6-3">
+                <mxCell id="b7mAhQMWUmjaO1hik1i6-7" value="" style="edgeStyle=none;html=1;" parent="1" source="b7mAhQMWUmjaO1hik1i6-5" target="b7mAhQMWUmjaO1hik1i6-3" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="b7mAhQMWUmjaO1hik1i6-5" value="hasil" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+                <mxCell id="b7mAhQMWUmjaO1hik1i6-5" value="hasil,&lt;br&gt;arr&lt;br&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
                     <mxGeometry x="220" y="270" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="b7mAhQMWUmjaO1hik1i6-14" value="false" style="edgeStyle=none;html=1;" edge="1" parent="1" source="b7mAhQMWUmjaO1hik1i6-10" target="b7mAhQMWUmjaO1hik1i6-13">
+                <mxCell id="b7mAhQMWUmjaO1hik1i6-14" value="false" style="edgeStyle=none;html=1;" parent="1" source="b7mAhQMWUmjaO1hik1i6-10" target="b7mAhQMWUmjaO1hik1i6-13" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="b7mAhQMWUmjaO1hik1i6-17" value="true" style="edgeStyle=none;html=1;" edge="1" parent="1" source="b7mAhQMWUmjaO1hik1i6-10" target="b7mAhQMWUmjaO1hik1i6-16">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="b7mAhQMWUmjaO1hik1i6-17" value="true" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="b7mAhQMWUmjaO1hik1i6-10" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="650" y="299.9999999999999" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="b7mAhQMWUmjaO1hik1i6-10" value="xArray = &lt;br&gt;string" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="b7mAhQMWUmjaO1hik1i6-10" value="kalimat == string" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="520" y="260" width="80" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="b7mAhQMWUmjaO1hik1i6-15" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="b7mAhQMWUmjaO1hik1i6-13" target="b7mAhQMWUmjaO1hik1i6-3">
+                <mxCell id="Gsce3r59FGf4O5V1w-QY-1" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="b7mAhQMWUmjaO1hik1i6-13" target="b7mAhQMWUmjaO1hik1i6-22" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
-                            <mxPoint x="430" y="200"/>
+                            <mxPoint x="30" y="200"/>
+                            <mxPoint x="30" y="440"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="b7mAhQMWUmjaO1hik1i6-13" value="output &quot;please enter &lt;br&gt;valid character&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                <mxCell id="b7mAhQMWUmjaO1hik1i6-13" value="output &quot;please enter a&lt;br&gt;valid sentence&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
                     <mxGeometry x="490" y="170" width="140" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="b7mAhQMWUmjaO1hik1i6-19" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="b7mAhQMWUmjaO1hik1i6-16" target="b7mAhQMWUmjaO1hik1i6-18">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="b7mAhQMWUmjaO1hik1i6-16" value="hasil = xArray reverse" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="640" y="270" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="b7mAhQMWUmjaO1hik1i6-23" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="b7mAhQMWUmjaO1hik1i6-18" target="b7mAhQMWUmjaO1hik1i6-22">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="b7mAhQMWUmjaO1hik1i6-18" value="output hasil" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-                    <mxGeometry x="640" y="410" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="b7mAhQMWUmjaO1hik1i6-22" value="END" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="b7mAhQMWUmjaO1hik1i6-22" value="END" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="80" y="400" width="120" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="Gg86selXwzBMP6PGdnHH-1" value="Flowchart Reverse Word" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="Gg86selXwzBMP6PGdnHH-1" value="Flowchart Reverse Word" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="340" y="120" width="160" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="Gg86selXwzBMP6PGdnHH-2" value="DECLARATION&lt;br&gt;&lt;br&gt;hasil: num;&lt;br&gt;&lt;br&gt;BEGIN&lt;br&gt;&lt;br&gt;INPUT xArray (saya, belajar, javascript);&lt;br&gt;hasil = xArray reverse;&lt;br&gt;PRINT hasil;&lt;br&gt;&lt;br&gt;END" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="325" y="610" width="240" height="170" as="geometry"/>
+                <mxCell id="Gg86selXwzBMP6PGdnHH-2" value="DECLARATION&lt;br&gt;&lt;br&gt;hasil: num;&lt;br&gt;arr: array;&lt;br&gt;&lt;br&gt;BEGIN&lt;br&gt;&lt;br&gt;input kalimat &quot;saya belajar javascript&quot;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;IF (kalimat === string){&lt;br&gt;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;LOOP(i = 0; i &amp;lt; kalimat.length; i++){&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;IF(kalimat[i] != ' '){&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;/span&gt;hasil += kalimat[i]&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;}&lt;br&gt;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;IF(kalimat [i] === ' ' ||&amp;nbsp; i == kalimat.length -1){&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;arr = [hasil, arr]&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;hasil = ''&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;}&lt;br&gt;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;LOOP(i = 0; i &amp;lt; arr.length; i++){&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;hasil += arr[i]&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;IF(arr[i]&amp;nbsp; != arr.length -1){&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;hasil += ' '&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;}&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;RETURN OUTPUT &quot;hasil&quot;&lt;br&gt;&lt;br&gt;} ELSE {&lt;br&gt;RETURN OUTPUT &quot;please enter a valid sentence&quot;&lt;br&gt;&lt;br&gt;END" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="785" width="310" height="460" as="geometry"/>
                 </mxCell>
-                <mxCell id="xEysnBBP1IlcGN_5ws3N-1" value="Pseudocode Reverse Word" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="295" y="545" width="170" height="30" as="geometry"/>
+                <mxCell id="xEysnBBP1IlcGN_5ws3N-1" value="Pseudocode Reverse Word" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="740" width="170" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="pwEnwhxVX8eqEYn77TdZ-3" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" parent="1" source="pwEnwhxVX8eqEYn77TdZ-1" target="pwEnwhxVX8eqEYn77TdZ-2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="pwEnwhxVX8eqEYn77TdZ-1" value="i = 0" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="650" y="270" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="O0cjSSjaDGIXDjA_xM2n-2" value="true" style="edgeStyle=none;html=1;" edge="1" parent="1" source="pwEnwhxVX8eqEYn77TdZ-2">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="810" y="440" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="fN6fr-bQJtW4lFCp4kXZ-11" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pwEnwhxVX8eqEYn77TdZ-2" target="fN6fr-bQJtW4lFCp4kXZ-10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="fN6fr-bQJtW4lFCp4kXZ-25" value="false" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="pwEnwhxVX8eqEYn77TdZ-2" target="fN6fr-bQJtW4lFCp4kXZ-22">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="pwEnwhxVX8eqEYn77TdZ-2" value="i &amp;lt; kalimat&lt;br&gt;.length" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="660" y="390" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="fN6fr-bQJtW4lFCp4kXZ-4" value="true" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="fN6fr-bQJtW4lFCp4kXZ-3" target="fN6fr-bQJtW4lFCp4kXZ-5">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="950" y="340" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="940" y="440"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="fN6fr-bQJtW4lFCp4kXZ-3" value="kalimat[i] != ' '" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="800" y="390" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="fN6fr-bQJtW4lFCp4kXZ-7" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fN6fr-bQJtW4lFCp4kXZ-5" target="fN6fr-bQJtW4lFCp4kXZ-8">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="880" y="230" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="940" y="190"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="fN6fr-bQJtW4lFCp4kXZ-5" value="hasil = hasil + kalimat[i]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="880" y="280" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="0dBIKGeRw4kUeRfnIJdN-1" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fN6fr-bQJtW4lFCp4kXZ-8" target="pwEnwhxVX8eqEYn77TdZ-2">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="820" y="360"/>
+                            <mxPoint x="735" y="360"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="fN6fr-bQJtW4lFCp4kXZ-8" value="i = i+1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="760" y="160" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="fN6fr-bQJtW4lFCp4kXZ-16" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fN6fr-bQJtW4lFCp4kXZ-10" target="fN6fr-bQJtW4lFCp4kXZ-15">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="fN6fr-bQJtW4lFCp4kXZ-10" value="Ikalimat [i] === ' ' i == kalimet.lenght-1" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="780" y="530" width="140" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="fN6fr-bQJtW4lFCp4kXZ-20" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="fN6fr-bQJtW4lFCp4kXZ-15" target="fN6fr-bQJtW4lFCp4kXZ-18">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="fN6fr-bQJtW4lFCp4kXZ-15" value="arr = [hasil, arr]&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="950" y="570" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="fN6fr-bQJtW4lFCp4kXZ-21" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fN6fr-bQJtW4lFCp4kXZ-18" target="fN6fr-bQJtW4lFCp4kXZ-8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="fN6fr-bQJtW4lFCp4kXZ-18" value="hasil = ''" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1040" y="280" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="fN6fr-bQJtW4lFCp4kXZ-24" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fN6fr-bQJtW4lFCp4kXZ-22" target="fN6fr-bQJtW4lFCp4kXZ-23">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="fN6fr-bQJtW4lFCp4kXZ-22" value="i = 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="500" y="410" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="fN6fr-bQJtW4lFCp4kXZ-30" value="false" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="fN6fr-bQJtW4lFCp4kXZ-23" target="fN6fr-bQJtW4lFCp4kXZ-29">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="0dBIKGeRw4kUeRfnIJdN-7" value="true" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="fN6fr-bQJtW4lFCp4kXZ-23" target="0dBIKGeRw4kUeRfnIJdN-6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="fN6fr-bQJtW4lFCp4kXZ-23" value="i &amp;lt; arr.length" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="400" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="fN6fr-bQJtW4lFCp4kXZ-32" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="fN6fr-bQJtW4lFCp4kXZ-29" target="fN6fr-bQJtW4lFCp4kXZ-31">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="fN6fr-bQJtW4lFCp4kXZ-29" value="hasil = hasil + arr[i]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="510" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="fN6fr-bQJtW4lFCp4kXZ-34" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="fN6fr-bQJtW4lFCp4kXZ-31" target="fN6fr-bQJtW4lFCp4kXZ-33">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="fN6fr-bQJtW4lFCp4kXZ-31" value="arr[i] != &lt;br&gt;arr.length -1" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="370" y="600" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="0dBIKGeRw4kUeRfnIJdN-4" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="fN6fr-bQJtW4lFCp4kXZ-33" target="0dBIKGeRw4kUeRfnIJdN-3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="fN6fr-bQJtW4lFCp4kXZ-33" value="hasil = hasil + ' '" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="500" y="620" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="0dBIKGeRw4kUeRfnIJdN-5" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="0dBIKGeRw4kUeRfnIJdN-3" target="fN6fr-bQJtW4lFCp4kXZ-23">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="0dBIKGeRw4kUeRfnIJdN-3" value="i = i + 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="500" y="510" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="0dBIKGeRw4kUeRfnIJdN-8" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="0dBIKGeRw4kUeRfnIJdN-6" target="b7mAhQMWUmjaO1hik1i6-22">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="0dBIKGeRw4kUeRfnIJdN-6" value="OUTPUT hasil" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="410" width="120" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
